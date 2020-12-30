@@ -73,36 +73,4 @@ form.addEventListener('submit', (e) => {
 
         }
             
-})
-
-
-
-
-
-
-
-    /* 
-    1. Storing API key and API url
-    2. make a function getMovies() -> 
-        the function is async. also fetching the api in json format.
-    3. checking the promise in console->
-        if its fulfilled
-    4. Displaying the image/poster data for each movie
-            -> creating an Image path from json
-    5. making skeleton of app using html now
-            -> making box .. putting details
-    6.  using function in span class to determine
-         the colors accrodring to ratings.  
-    
-    
-            /* resData.results.forEach((movie) => {
-        const img = document.createElement("img");
-        img.src = IMG_PATH + movie.poster_path;
-
-        document.body.appendChild(img);
-    7. creating a search bar in header
-               -> making a form
-               -> getting it by querySelector
-               -> adding event listener to form
-               -> e.preventDefault
-    });  */
+});
